@@ -1,11 +1,1 @@
-from rim import RIM
 
-# Initialize RIM v5.5
-rim = RIM()
-
-# Generate a recursive prompt
-query = "Explain how recursion applies to consciousness"
-recursive_prompt = rim.apply_to_llm_prompt(query)
-
-# Send to your preferred LLM
-# response = your_llm_api_call(recursive_prompt)
