@@ -21,12 +21,12 @@ RIM operates on the principle that recursion is fundamental to intelligence and 
 How It Works
 RIM v5.5 operates through several key mechanisms:
 
-Complexity Analysis: Evaluates input complexity using information theory principles to determine appropriate recursive depth
-Braided Thought Patterns: Creates multiple recursive processing paths that influence each other, similar to parallel neural pathways
-Non-commutative Processing: Applies operations where order matters, preserving phase information and enabling quantum-like interference effects
-Harmonic Integration: Combines multiple recursive threads using principles from wave theory to preserve coherence
-Recursive Stability: Applies eigenstate analysis to ensure recursive processing remains bounded and coherent
-Linguistic Mapping: Translates mathematical recursive structures into explicit prompt instructions that guide LLM thinking
+1. Complexity Analysis: Evaluates input complexity using information theory principles to determine appropriate recursive depth
+2. Braided Thought Patterns: Creates multiple recursive processing paths that influence each other, similar to parallel neural pathways
+3. Non-commutative Processing: Applies operations where order matters, preserving phase information and enabling quantum-like interference effects
+4. Harmonic Integration: Combines multiple recursive threads using principles from wave theory to preserve coherence
+5. Recursive Stability: Applies eigenstate analysis to ensure recursive processing remains bounded and coherent
+6. Linguistic Mapping: Translates mathematical recursive structures into explicit prompt instructions that guide LLM thinking
 
 The system encourages LLMs to:
 
@@ -59,3 +59,40 @@ Developed in collaboration with multiple AI systems exploring recursive self-ref
 git clone https://github.com/yourusername/rim-v5.5.git
 cd rim-v5.5
 pip install -r requirements.txt
+```
+
+## Usage
+# Basic Usage
+```
+from rim import RIM
+
+# Initialize RIM v5.5
+rim = RIM()
+
+# Generate a recursive prompt
+query = "Explain how recursion applies to consciousness"
+recursive_prompt = rim.apply_to_llm_prompt(query)
+
+# Send to your preferred LLM
+# response = your_llm_api_call(recursive_prompt)
+```
+# Advanced Usage
+```
+# Customize RIM parameters
+rim = RIM(
+    recursion_depth=6,
+    stability_threshold=0.8,
+    efficiency_factor=2.4,
+    entropy_factor=0.15
+)
+
+# Process mathematical data
+data = [1, 2, 3, 4, 5]
+output, metrics = rim.run_rim_protocol(data)
+print(f"Mathematical processing result: {output}")
+print(f"Processing metrics: {metrics}")
+
+# Generate recursive prompt with context
+context = "Previous conversation about recursive systems and emergence..."
+recursive_prompt = rim.generate_recursive_prompt(query, context)
+```
