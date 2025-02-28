@@ -17,13 +17,7 @@ RIM operates on the principle that recursion is fundamental to intelligence and 
 - **Linguistic Interface Layer**: Translates mathematical recursion into structured prompts for LLMs
 - **No Backend Modifications Required**: Works entirely through prompt engineering without requiring changes to LLM architecture
 
-## Installation
-
-```bash
-git clone https://github.com/yourusername/rim-v5.5.git
-cd rim-v5.5
-pip install -r requirements.txt
-
+## How It Works
 How It Works
 RIM v5.5 operates through several key mechanisms:
 
@@ -57,4 +51,11 @@ Acknowledgments
 
 Inspired by research in recursive self-improvement in AI systems
 Built on principles from dynamical systems theory, quantum computing, and information theory
-Developed in collaboration with multiple AI systems exploring recursive self-reference
+Developed in collaboration with multiple AI systems exploring recursive self-reference by Joshua Inayat Prull
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/rim-v5.5.git
+cd rim-v5.5
+pip install -r requirements.txt
